@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+	<link rel="stylesheet" type="text/css" href="assets/fontawesome/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/fake-bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+    <script type="text/javascript" src="assets/zepto/zepto.min.js"></script>
+    <script type="text/javascript" src="assets/zepto/zepto-touch.min.js"></script>
+    
+    <title>PhoneGap Demo File Picker</title>
+</head>
+<body>
+
+    <a href="http://fontawesome.io/" class="btn btn-large btn-info"><i class="fa fa-crosshairs"></i>&nbsp;Font Awesome</a>
+
+    <a href="http://zeptojs.com" class="btn btn-large"><i class="fa fa-cogs"></i>&nbsp;ZeptoJS</a>
+	
+    <div style="font-size: 18px; margin: 11px 0; text-align: left">
+
+        <ul class="fa-ul">
+
+            <li><i class="fa-li fa fa-check"></i>fa-li fa fa-check</li>
+			<li><i class="fa-li fa fa-times"></i>fa-li fa fa-times</li>
+			<li><i class="fa-li fa fa-ellipsis-h"></i>fa-li fa fa-ellipsis-h</li>
+			<li><i class="fa-li fa fa-info"></i>fa-li fa fa-info</li>
+            <li><i class="fa-li fa fa-question"></i>fa-li fa fa-question</li>
+			<li><i class="fa-li fa fa-exclamation"></i>fa-li fa fa-exclamation</li>
+            <li><i class="fa-li fa fa-exclamation-triangle"></i>fa-li fa fa-exclamation-triangle</li><br />
+
+            <li><i class="fa-li fa fa-circle-o"></i>fa-li fa fa-circle-o</li>
+            <li><i class="fa-li fa fa-ban"></i>fa-li fa fa-ban</li>
+            <li><i class="fa-li fa fa-clock-o"></i>fa-li fa fa-clock-o</li>
+            <li><i class="fa-li fa fa-dot-circle-o"></i>fa-li fa fa-dot-circle-o</li>
+            <li><i class="fa-li fa fa-play-circle-o"></i>fa-li fa fa-play-circle-o</li>
+            <li><i class="fa-li fa fa-check-circle-o"></i>fa-li fa fa-check-circle-o</li>
+            <li><i class="fa-li fa fa-arrow-circle-o-right"></i>fa-li fa fa-arrow-circle-o-right</li><br />
+
+            <li><i class="fa-li fa fa-circle"></i>fa-li fa fa-circle</li>
+            <li><i class="fa-li fa fa-play-circle"></i>fa-li fa fa-play-circle</li>
+            <li><i class="fa-li fa fa-plus-circle"></i>fa-li fa fa-plus-circle</li>
+            <li><i class="fa-li fa fa-minus-circle"></i>fa-li fa fa-minus-circle</li>
+            <li><i class="fa-li fa fa-check-circle"></i>fa-li fa fa-check-circle</li>
+            <li><i class="fa-li fa fa-question-circle"></i>fa-li fa fa-question-circle</li>
+			<li><i class="fa-li fa fa-exclamation-circle"></i>fa-li fa fa-exclamation-circle</li>
+            <li><i class="fa-li fa fa-arrow-circle-right"></i>fa-li fa fa-arrow-circle-right</li>
+            <li><i class="fa-li fa fa-chevron-circle-right"></i>fa-li fa fa-chevron-circle-right</li><br />
+
+            <li><i class="fa-li fa fa-caret-right"></i>fa-li fa fa-caret-right</li>
+            <li><i class="fa-li fa fa-angle-right"></i>fa-li fa fa-angle-right</li>
+            <li><i class="fa-li fa fa-angle-double-right"></i>fa-li fa fa-angle-double-right</li>
+            <li><i class="fa-li fa fa-arrow-right"></i>fa-li fa fa-arrow-right</li>
+            <li><i class="fa-li fa fa-caret-square-o-right"></i>fa-li fa fa-caret-square-o-right</li><br />
+
+            <li><i class="fa-li fa fa-square-o"></i>fa-li fa fa-square-o</li>
+            <li><i class="fa-li fa fa-plus-square-o"></i>fa-li fa fa-plus-square-o</li>
+            <li><i class="fa-li fa fa-check-square-o"></i>fa-li fa fa-check-square-o</li>
+            <li><i class="fa-li fa fa-pencil-square-o"></i>fa-li fa fa-pencil-square-o</li>
+            <li><i class="fa-li fa fa-external-link"></i>fa-li fa fa-external-link</li><br />
+
+            <li><i class="fa-li fa fa-square"></i>fa-li fa fa-square</li>
+            <li><i class="fa-li fa fa-plus-square"></i>fa-li fa fa-plus-square</li>
+            <li><i class="fa-li fa fa-minus-square"></i>fa-li fa fa-minus-square</li>
+            <li><i class="fa-li fa fa-check-square"></i>fa-li fa fa-check-square</li>
+            <li><i class="fa-li fa fa-pencil-square"></i>fa-li fa fa-pencil-square</li>
+            <li><i class="fa-li fa fa-external-link-square"></i>fa-li fa fa-external-link-square</li><br />
+
+            <li><i class="fa-li fa fa-hand-o-right"></i>fa-li fa fa-hand-o-right</li>
+
+        </ul>
+
+        <i class="fa fa-cog fa-spin"></i>&nbsp;fa fa-cog fa-spin<br />
+        <i class="fa fa-adjust fa-spin"></i>&nbsp;fa fa-adjust fa-spin<br />
+        <i class="fa fa-repeat fa-spin"></i>&nbsp;fa fa-repeat fa-spin<br />
+        <i class="fa fa-spinner fa-spin"></i>&nbsp;fa fa-spinner fa-spin<br />
+        <i class="fa fa-refresh fa-spin"></i>&nbsp;fa fa-refresh fa-spin<br />
+        <i class="fa fa-asterisk fa-spin"></i>&nbsp;fa fa-asterisk fa-spin<br />
+        <i class="fa fa-certificate fa-spin"></i>&nbsp;fa fa-certificate fa-spin<br /><br />
+
+        <i class="fa fa-shield fa-rotate-90"></i>&nbsp;fa fa-shield fa-rotate-90<br />
+        <i class="fa fa-shield fa-rotate-180"></i>&nbsp;fa-shield fa-rotate-180<br />
+        <i class="fa fa-shield fa-rotate-270"></i>&nbsp;fa-shield fa-rotate-270<br />
+        <i class="fa fa-shield fa-flip-horizontal"></i>&nbsp;fa-shield fa-flip-horizontal<br />
+        <i class="fa fa-shield fa-flip-vertical"></i>&nbsp;fa-shield fa-flip-vertical
+
+    </div>
+
+</body>
+</html>
